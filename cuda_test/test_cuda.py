@@ -11,8 +11,8 @@ import torch
 
 def info():
     print("=" * 50)
-    print(f"PyTorch versão:      {torch.__version__}")
-    print(f"CUDA disponível:     {torch.cuda.is_available()}")
+    print(f"PyTorch version:      {torch.__version__}")
+    print(f"CUDA available:     {torch.cuda.is_available()}")
     if not torch.cuda.is_available():
         print("\n CUDA NÃO disponível — PyTorch vai rodar só na CPU.")
         return False
