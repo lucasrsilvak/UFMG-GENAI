@@ -1,4 +1,4 @@
-# Introduction to Generative AI — Practical Test
+# Introduction to Generative AI — Practical project
 
 ## Environment setup
 
@@ -13,9 +13,6 @@ pip install --upgrade pip
 # Install the dependencies (PyTorch with CUDA 12.9 + notebook libraries)
 pip install -r requirements.txt
 ```
-
-> If your system lacks the `venv` module (missing `ensurepip` error), create the
-> environment with `python3 -m venv .venv --without-pip` — pip is included.
 
 
 ## Using the GPU in your code
